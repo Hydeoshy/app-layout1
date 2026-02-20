@@ -128,8 +128,8 @@ export default function App() {
             </div>
             
             {/* Desktop Nav */}
-            <nav className="hidden md:flex space-x-8">
-              <button onClick={() => navigate('home')} className={`hover:text-[#FF0000] transition-colors ${currentRoute === 'home' ? 'text-[#FF0000]' : ''}`}>Home</button>
+            <nav className="hidden md:flex space-x-6">
+              <button onClick={() => navigate('inicio')} className={`hover:text-[#FF0000] transition-colors ${currentRoute === 'home' ? 'text-[#FF0000]' : ''}`}>Home</button>
               <button onClick={() => navigate('catalog')} className={`hover:text-[#FF0000] transition-colors ${currentRoute === 'catalog' ? 'text-[#FF0000]' : ''}`}>Catálogo</button>
               <button onClick={() => navigate('admin')} className={`hover:text-[#FF0000] transition-colors ${currentRoute === 'admin' ? 'text-[#FF0000]' : ''}`}>Admin</button>
             </nav>
@@ -200,7 +200,7 @@ export default function App() {
           </div>
         </div>
       </footer>
-
+batata
       {/* CART SIDEBAR OVERLAY */}
       {isCartOpen && (
         <div className="fixed inset-0 z-50 flex justify-end">
